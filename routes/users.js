@@ -7,7 +7,7 @@ const {UserModel,userValid,loginValid, createToken} = require("../models/userMod
 const router = express.Router();
 
 router.get("/" , async(req,res)=> {
-  let perPage = Math.min(req.query.perPage,20) || 4;
+  let perPage = Math.min(req.query.perPage,20) || 10;
   let page = req.query.page || 1;
   let sort = req.query.sort || "-I";
   let reverse = req.query.reverse == "yes" ? -1 : 1;
