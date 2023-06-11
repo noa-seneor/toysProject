@@ -7,7 +7,6 @@ const router = express.Router();
 router.get("/" , async(req,res)=> {
   // Math.min -> המספר המקסימלי יהיה 20 כדי שהאקר לא ינסה
   // להוציא יותר אם אין צורך בזה מבחינת הלקוח
-    console.log(req.query.perPage)
   let perPage = Math.min(req.query.perPage,20) || 10;
   let page = req.query.page || 1;
   let sort = req.query.sort || "_id";

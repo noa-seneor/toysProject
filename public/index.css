@@ -1,0 +1,57 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    background-image: url(images/tatiana-rodriguez-0vjvsPijSsA-unsplash.jpg);
+    background-size: cover;
+    }
+  .container-fluid{
+    width:100%;
+  }
+    
+ h1 {
+  text-shadow: 3px 3px    rgb(246, 219, 255);
+  color: rgb(111, 111, 111);
+ }
+main {
+  min-height: 520px;
+}
+.accordion {
+    --bs-accordion-active-bg:  rgb(246, 219, 255);
+    --bs-accordion-active-color: darkgrey;
+    
+  }
+
+ul {
+    line-height: 35px;
+}
+
+
+
+a {
+    color: lightskyblue;
+}
+
+
+ 
+
+button.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+footer{
+  height: 60px;
+  background-color: rgb(220, 171, 236);
+  color: white;
+}
+
+
+footer a{
+  color: white;
+}
+  
+
